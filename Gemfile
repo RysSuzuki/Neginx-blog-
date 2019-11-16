@@ -19,6 +19,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'unicorn'
 gem 'bootsnap', '>= 1.4.2', require: false
+gem 'graphql', '<= 1.7'
+gem 'graphiql-rails', '<= 1.5'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
